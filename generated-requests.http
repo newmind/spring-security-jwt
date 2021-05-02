@@ -1,0 +1,17 @@
+###
+GET http://localhost:8080/hello
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJmb28iLCJleHAiOjE2MTk5OTU4MTAsImlhdCI6MTYxOTk1OTgxMH0.dzo-Q4m0C4dgvUs7iSpouKatxTs-mooIEXM7vEU4IRk
+
+
+###
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+  "username": "foo",
+  "password": "foo"
+}
+
+
+###
